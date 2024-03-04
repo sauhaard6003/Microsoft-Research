@@ -1,0 +1,117 @@
+{
+  "id": "31dba180-b1a5-4e51-b655-1f37ec094506",
+  "version": "2.0",
+  "name": "government of india press information bureau",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "c4198123-17a8-485c-b328-ae68d52b4b05",
+    "name": "Untitled",
+    "commands": [{
+      "id": "9b2c413a-85dd-46fe-9a04-44453d7a9bb7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8f34a9d-b17a-4466-bf2a-aa63ec0ed17e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "890214e8-15e3-40c8-89b6-e2de18e3d8c7",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "government of india press information bureau"
+    }, {
+      "id": "1e5e81cf-13f4-4144-8b21-c1958f4b6fa3",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba40d40e-97da-4246-91e5-23626d7e194b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Home Page:Press Information Bureau')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb92a7ea-aaa5-4da5-8f4e-4d0749318d63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.release_list > li:nth-child(1) > a",
+      "targets": [
+        ["linkText=Haj Suvidha App launched and Haj Guide for Haj-2024 released by Minister for Minority...", "linkText"],
+        ["css=.release_list > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Haj Suvidha App launched and Haj Guide for Haj-2024 released by Minister for Minority...')]", "xpath:link"],
+        ["xpath=//form[@id='form1']/section[2]/div/div/div[2]/div[3]/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/PressReleseDetail.aspx?PRID=2011135')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Haj Suvidha App launched and Haj Guide for Haj-2024 released by Minister for Minority...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8785836c-cb23-4fad-ac81-c0595b29df4d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "1535ad75-6d35-4ea0-954d-311894a533d6",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "10000"
+    }, {
+      "id": "e49e12d6-9057-46c5-8eeb-71bf7a9defef",
+      "comment": "",
+      "command": "click",
+      "target": "id=printPDF",
+      "targets": [
+        ["id=printPDF", "id"],
+        ["name=printPDF", "name"],
+        ["css=#printPDF", "css:finder"],
+        ["xpath=//input[@id='printPDF']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "70916374-a045-45b2-ae6a-dd4b9bdab835",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c4198123-17a8-485c-b328-ae68d52b4b05"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
